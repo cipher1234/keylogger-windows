@@ -1,5 +1,9 @@
 import socket
 import threading
+#a tcp server for the keylogger
+#multi-threaded 
+#can supports upto 20 clients
+#maybe buggy
 def handler():
     i=12
     while i>0:
